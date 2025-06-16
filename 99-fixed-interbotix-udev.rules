@@ -1,0 +1,7 @@
+SUBSYSTEM=="tty", ATTRS{serial}=="FT951E8U", ENV{ID_MM_DEVICE_IGNORE}="1", ATTR{device/latency_timer}="1", SYMLINK+="ttyDXL_leader_left"
+
+SUBSYSTEM=="tty", ATTRS{serial}=="FT951EK1", ENV{ID_MM_DEVICE_IGNORE}="1", ATTR{device/latency_timer}="1", SYMLINK+="ttyDXL_leader_right"
+
+SUBSYSTEM=="tty", ATTRS{serial}=="FT88YTBH", ENV{ID_MM_DEVICE_IGNORE}="1", ATTR{device/latency_timer}="1", SYMLINK+="ttyDXL_follower_left"
+
+SUBSYSTEM=="tty", ATTRS{serial}=="FT94VXIE", ENV{ID_MM_DEVICE_IGNORE}="1", ATTR{device/latency_timer}="1", SYMLINK+="ttyDXL_follower_right"
